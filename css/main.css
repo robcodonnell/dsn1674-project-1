@@ -10,12 +10,13 @@ header {
 
 main {
   margin: 10px;
+  font-family: Georgia;
 }
 
 h1 {
   color: #b32f52;
   font-family: 'Sigmar One', cursive;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: normal;
   line-height: 1;
   text-align: center;
@@ -43,6 +44,8 @@ h3 {
 
 cite {
   text-align: center;
+  padding: 3px;
+  display: block;
 }
 
 a {
@@ -69,6 +72,18 @@ blockquote {
   font-style: italic;
   font-size: 1.5rem;
   line-height: 1.25;
+  color: #b2a215;
+  text-align: center;
+  margin: 20px;
+
+}
+
+blockquote span {
+  color: #b2a215;
+  margin: 0;
+  display: block;
+  text-align: center;
+  font-size: 4rem;
 }
 
 dl {
@@ -90,9 +105,6 @@ figcaption {
 
 footer {
 
-}
-.quotemark {
-  color: #79756f;
 }
 
 nav li {
