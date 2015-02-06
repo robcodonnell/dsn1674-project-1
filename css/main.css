@@ -4,10 +4,13 @@ html {
 
 header {
   background-color: #ffe524;
-  padding: 5px;
+  padding: 5px 0;
 
 }
 
+main {
+  margin: 5px;
+}
 
 h1 {
   color: #b32f52;
@@ -15,7 +18,6 @@ h1 {
   font-size: 2rem;
   font-weight: normal;
   line-height: 1;
-  background-color: #79756f;
   text-align: center;
   margin: 0;
   padding: 20px;
@@ -39,7 +41,9 @@ h3 {
   font-family: 'Sigmar One', cursive;
 }
 
-
+cite {
+  text-align: center;
+}
 
 a {
 
@@ -68,12 +72,14 @@ blockquote {
 }
 
 dl {
-  font-family: Arial,sans-serif;
+
   line-height: 1.5;
+  text-align: left;
 }
 
 figcaption {
    font-style: italic;
+   font-family: Georgia,serif;
    font-size: 12px;
    text-align: center;
  }
@@ -106,10 +112,14 @@ img {
 figure {
   padding: 5px;
   margin: 10px;
-  border: 3px solid #c5b844;
+  border: 2px solid #c5b844;
   border-radius: 10px;
   background-color: #fffce0;
 }
 
 footer {
+}
+
+body {
+  margin: 1px;
 }
