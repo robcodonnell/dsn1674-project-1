@@ -1,0 +1,115 @@
+html {
+  background-color: #fff;
+}
+
+header {
+  background-color: #ffe524;
+  padding: 5px;
+
+}
+
+
+h1 {
+  color: #b32f52;
+  font-family: 'Sigmar One', cursive;
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 1;
+  background-color: #79756f;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+
+}
+
+h2 {
+  color: #b32f52;
+  font-family: 'Sigmar One', cursive;
+  font-size: 1.75rem;
+  font-weight: normal;
+  line-height: 1;
+}
+
+
+h3 {
+  color: #b32f52;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 1;
+  font-family: 'Sigmar One', cursive;
+}
+
+
+
+a {
+
+}
+
+a:hover {
+
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  font-family: Arial,sans-serif;
+
+}
+
+p {
+  line-height: 1.5
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+dl {
+  font-family: Arial,sans-serif;
+  line-height: 1.5;
+}
+
+figcaption {
+   font-style: italic;
+   font-size: 12px;
+   text-align: center;
+ }
+
+footer {
+
+}
+.quotemark {
+  color: #79756f;
+}
+
+nav li {
+  display: inline-block;
+  padding: 2.5px 1px;
+}
+
+nav a {
+  display: inline-block;
+  background-color: #cc3865;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 0.75em;
+  border-radius: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  padding: 5px;
+  margin: 10px;
+  border: 3px solid #c5b844;
+  border-radius: 10px;
+  background-color: #fffce0;
+}
+
+footer {
+}
