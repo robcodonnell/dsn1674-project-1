@@ -9,7 +9,7 @@ header {
 }
 
 main {
-  margin: 5px;
+  margin: 10px;
 }
 
 h1 {
@@ -98,11 +98,15 @@ nav li {
 
 nav a {
   display: inline-block;
-  background-color: #cc3865;
+  background-color: #b2a215;
   color: white;
   text-decoration: none;
   padding: 0.5em 0.75em;
   border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #cc3865;
 }
 
 img {
