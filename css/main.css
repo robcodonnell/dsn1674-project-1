@@ -31,6 +31,7 @@ h2 {
   font-size: 1.5rem;
   font-weight: normal;
   line-height: 1;
+  padding: 15px 0 0 0;
 }
 
 
@@ -48,12 +49,8 @@ cite {
   display: block;
 }
 
-a {
-
-}
-
-a:hover {
-
+footer a {
+  color: #b32f52;
 }
 
 ol {
@@ -70,11 +67,13 @@ p {
 
 blockquote {
   font-style: italic;
-  font-size: 1.5rem;
-  line-height: 1.25;
+  font-size: 1rem;
+  line-height: 1.5;
   color: #b2a215;
   text-align: center;
-  margin: 20px;
+  margin: 15px;
+  padding: 0 0 20px 0;
+  border-bottom: 4px solid #ffe524;
 
 }
 
@@ -90,6 +89,8 @@ dl {
 
   line-height: 1.5;
   text-align: left;
+  border-bottom: 4px solid #ffe524;
+  padding: 0 0 20px 0;
 }
 
 dd {
@@ -102,10 +103,6 @@ figcaption {
    font-size: 12px;
    text-align: center;
  }
-
-footer {
-
-}
 
 nav li {
   display: inline-block;
@@ -138,6 +135,10 @@ figure {
 }
 
 footer {
+  background-color: #ffe524;
+  padding: 30px 50px;
+  font-size: 0.75rem;
+  margin: 0;
 }
 
 body {
